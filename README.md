@@ -1,4 +1,6 @@
-# ECE M202A Project - Auto-Generate Map of BLE Beacons for Indoor positioning Using a Phone's Motion Sensors
+# Auto-Generate Map of BLE Beacons for Indoor positioning Using a Phone's Motion Sensors
+
+UCLA ECE M202A Final Project by Max Gong, Fall 2020
 
 ## Motivation
 
@@ -13,34 +15,34 @@ Bluetooth Low Energy (BLE) beacons have been studied closely in the past decade 
 
 ## Idea
 
-**The main idea: Auto-generate map of beacons for indoor positioning using a phone's motion sensors"** 
+**The main idea: _Auto-generate map of beacons for indoor positioning using a phone's motion sensors_** 
 
 There are 2 parts to my idea: 
-1. **Mapping**: I aim to use a phone's motion sensors to locate and generate a map of beacons.
-2. **Indoor positioning**: Once the map is created, I aim to use these beacons to locate the position of a phone and display that location on a 2D eagle-eye view map.**
+1. ***Mapping***: I aim to use a phone's motion sensors to locate and generate a map of beacons.
+2. ***Indoor positioning***: Once the map is created, I aim to use these beacons to locate the position of a phone and display that location on a 2D eagle-eye view map.**
 
 An example use case of this: A warehouse manager downloads the app. They use the app to locate and generate a map of beacons. Then, warehouse employees download the app. They activate the app when they come to work, so that their positions can be tracked on by the warehouse manager. 
 
 
 ## Proposed Method & Expected Results
 
-**Here are the materials I plan to use:** 
+###Here are the materials I plan to use: 
 - Android phone (Samsung Galaxy S9)
 - BLE beacons (BlueCharm beacons)
 - PC 
 
-**These are the languages I plan to use:** 
+####These are the languages I plan to use: 
 - Android Java, for developing the Android app and collecting IMU & BLE RSSI data. 
 - Python, for processing IMU & BLE RSSI data to generate map & indoor positioning.
 
-**Here is my proposed flow for Mapping:** 
+####Here is my proposed flow for Mapping: 
 1. User starts from one beacon to begin mapping.  
 2. Android phone app sends IMU & BLE RSSI data to PC, using MQTT protocol. 
 3. Python program on PC will process IMU & BLE RSSI data to generate map. 
 4. Map is finished when user reaches last beacon and stops mapping. 
 5. Map is generated in Python & ready to use for indoor positioning. 
 
-**Here is my proposed flow for Indoor Positioning:**
+####Here is my proposed flow for Indoor Positioning:
 1. User activates BLE monitoring on Android phone app.
 2. In the background, Android phone app sends BLE RSSI data to PC, using MQTT protocol. 
 3. Python program on PC uses triangulation with BLE RSSI data to locate position of phone. 
