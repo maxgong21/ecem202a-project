@@ -51,12 +51,14 @@ An example use case of this: A warehouse manager downloads the app. They use the
 I think the most challenging and innovative part is meshing the IMU & BLE data to map the beacons' positions. 
 
 
-## Progress
-
-I developed an Android app with an activity that sends BLE RSSI data through MQTT, both in app foreground & background. Currently, I am working on collecting and sending IMU data through MQTT. 
-
-
 ## Related works
 - [A Smartphone Based Hand-Held Indoor Positioning System](https://www.researchgate.net/publication/301529181_A_Smartphone_Based_Hand-Held_Indoor_Positioning_System) - This paper uses IMU data for indoor positioning and tracks a person's walking path. I can use this paper by implementing the algorithms explained in this paper for map generation. 
 - [An Indoor Position-Estimation Algorithm Using Smartphone IMU Sensor Data](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8606925) - This paper provides formulas and explanations on how to use a phone's IMU for tracking indoor position. I can use this paper by implementing the algorithms explained in this paper for map generation.  
 - [An iBeacon Primer for Indoor Localization](https://dl.acm.org/doi/10.1145/2674061.2675028) - This paper shows how BLE beacons can be used for indoor localization. I can use this paper by implementing the algorithms explained in this paper for indoor positioning. 
+
+
+## Progress
+
+I developed an Android app with an activity that sends BLE RSSI data through MQTT, both in app foreground & background. Currently, I am working on collecting and sending IMU data through MQTT. 
+
+![Progress_1](https://github.com/maxgong21/ecem202a-project/blob/main/progress_1.jpg)
