@@ -1,1 +1,1 @@
-# ecem202a-project
+# ECE M202A Project - IMU 
