@@ -2,6 +2,10 @@
 
 UCLA ECE M202A Final Project by Max Gong, Fall 2020
 
+## Abstract
+
+Bluetooth Low Energy (BLE) beacons for indoor positioning have been studied closely in the past decade and have even developed into a marketable technology, as BLE is a cheap indoor positioning solution that is valuable in many industry verticals such as warehousing and construction. A typical use case is using BLE beacons to track the location of a person’s phone. However, there are little to no solutions for locating the position of the BLE beacons themselves. Typically, once beacons are placed in their spot, the locations of the beacon have to be manually entered. This can result in inaccuracies and presents a major hassle for the user. In this project, I use an Android phone’s motion sensors to locate the position of beacons and generate a map of beacons. I then demonstrate BLE for indoor positioning with the auto-generated map of beacon positions. 
+
 ## Motivation
 
 Indoor positioning brings much value in many industry verticals. In warehouses, being able to navigate to an item or to a shelf can help save money and time. In hospitals, knowing the locations of equipment can save time and even save lives.
