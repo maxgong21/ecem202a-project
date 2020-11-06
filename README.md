@@ -67,7 +67,6 @@ Although IMU has shown to provide high path tracing accuracy, I have only found 
 
 ## Timeline
 
-| :---: | :--- |
 | Week 1 | Form idea. |
 | Week 2 | Test idea & discuss with professor and TA. |
 | Week 3 | Develop Android phone app to read BLE RSSI and communicate it using MQTT. |
