@@ -28,7 +28,7 @@ There are 2 parts to my idea:
 An example use case of this: A warehouse manager downloads the app. They use the app to locate and generate a map of beacons. Then, warehouse employees download the app. They activate the app when they come to work, so that their positions can be tracked on by the warehouse manager. 
 
 
-## Proposed Method & Expected Results
+## Proposed Method and Expected Results
 
 #### Here are the materials I plan to use. 
 - Android phone (Samsung Galaxy S9)
