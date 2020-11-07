@@ -85,7 +85,7 @@ Although IMU has shown to provide high path tracing accuracy, I have only found 
 
 I developed an Android app with an activity that sends BLE RSSI data through MQTT, both in app foreground & background. Currently, I am working on collecting and sending IMU data through MQTT. 
 
-![Progress_1](https://github.com/maxgong21/ecem202a-project/tree/gh-pages/images/progress_1.jpg)
+![Progress_1](https://github.com/maxgong21/ecem202a-project/blob/main/progress_1.jpg)
 
 
 ## References
