@@ -1,0 +1,5 @@
+// Start Time: 0
+// Sample rate: 50.0Hz
+// Scenario: 4.9
+// Firmware Version: 2.5.1
+Counter Acc_X Acc_Y Acc_Z Gyr_X Gyr_Y Gyr_Z Mag_X Mag_Y Mag_Z Quat_w Quat_x Quat_y Quat_z

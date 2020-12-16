@@ -1,0 +1,132 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_monitoring_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#DDEEDD"
+    tools:context=".MapActivity" >
+
+    <Button
+        android:id="@+id/stopButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/roundedbuttonred"
+        android:onClick="onStopClicked"
+        android:padding="8dp"
+        android:textSize="14sp"
+        android:text="Stop Mapping"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/textViewMapStatus"
+        android:layout_below="@id/stopButton"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="bottom|center_horizontal"
+        android:layout_marginTop="0dp"
+        android:textSize="32sp"
+        android:layout_alignParentLeft="true"
+        android:text="Mapping" />
+
+    <TextView
+        android:id="@+id/textViewMap"
+        android:layout_below="@id/textViewMapStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:visibility="visible"
+        android:textSize="12sp"
+        android:background="@drawable/outlinerectangle"
+        android:textStyle="italic"
+        android:text="Instructions for mapping beacons: \n 1. Start near a beacon. \n 2. Click Activate Beacon button. \n 3. Walk from beacon to beacon. When you get close to a beacon, click the Activate Beacon button. \n 4. Click Stop Mapping button when you finish."
+    />
+
+    <TextView
+        android:id="@+id/textTitleIMUData"
+        android:layout_below="@id/textViewMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:visibility="visible"
+        android:textSize="12sp"
+        android:text="IMU Data"
+    />
+
+    <TextView
+        android:id="@+id/IMUdata"
+        android:layout_below="@id/textTitleIMUData"
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:singleLine="false"
+        android:textSize="8sp"
+        android:gravity = "center_horizontal"
+        android:visibility="visible"
+        android:padding="6dp"
+        />
+
+    <TextView
+        android:id="@+id/textTitleBLEData"
+        android:layout_below="@id/IMUdata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:visibility="visible"
+        android:textSize="12sp"
+        android:text="BLE Data"
+        />
+
+    <TextView
+        android:id="@+id/BLEdata"
+        android:layout_below="@id/textTitleBLEData"
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:singleLine="false"
+        android:textSize="8sp"
+        android:gravity = "center_horizontal"
+        android:visibility="visible"
+        android:padding="6dp"
+        />
+
+
+    <com.bhargavms.dotloader.DotLoader
+        android:id="@+id/text_dot_loader"
+        android:layout_below="@id/BLEdata"
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:color_array="@array/dot_colors"
+        app:dot_radius="4dp"
+        app:number_of_dots="5"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible"
+        />
+
+    <Button
+    android:id="@+id/locateButton"
+    android:layout_below="@+id/BLEdata"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_marginTop="30dp"
+    android:background="@drawable/roundedbuttonblack"
+    android:textSize="24sp"
+    android:onClick="onActivateClicked"
+    android:padding="10dp"
+    android:text="Activate Beacon"
+    android:textColor="@color/white"
+    android:visibility="invisible"
+    />
+
+
+</RelativeLayout>

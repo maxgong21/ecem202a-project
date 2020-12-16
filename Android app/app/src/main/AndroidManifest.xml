@@ -1,0 +1,43 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="org.altbeacon.beaconreference"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>             <!-- For BLE -->
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>                      <!-- For MQTT -->
+    <uses-permission android:name="android.permission.INTERNET"/>                       <!-- For MQTT -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>           <!-- For MQTT -->
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />    <!-- For BLE -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />          <!-- For BLE -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />              <!-- For MQTT -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>              <!-- For accessing IP address -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:name="BeaconReferenceApplication">
+        <activity
+            android:name="org.altbeacon.beaconreference.MonitoringActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.altbeacon.beaconreference.MapActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <!-- uncomment the following to enable scanning for over 30 minutes on Android 7+ -->
+        <service android:name="org.altbeacon.beacon.service.BeaconService"
+            tools:node="replace">
+            <meta-data android:name="longScanForcingEnabled" android:value="true"/>
+        </service>
+        <service android:name="org.eclipse.paho.android.service.MqttService" >
+        </service>
+    </application>
+
+</manifest>

@@ -1,0 +1,32 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion '28.0.3'
+
+    defaultConfig {
+        applicationId "org.altbeacon.beaconreference"
+        minSdkVersion 19
+        targetSdkVersion 29
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    //implementation project(':android-beacon-library:lib')
+    implementation 'org.altbeacon:android-beacon-library:2+'
+    implementation 'com.github.bhargavms:DotLoader:1.1.1'               // This downloads library for animated dots - https://androidexample365.com/a-cool-customizable-loading-animation-with-dots/
+    // implementation 'com.github.agrawalsuneet:dotloaderspack-android:1.4'
+    implementation 'org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.5'
+    implementation ('org.eclipse.paho:org.eclipse.paho.android.service:1.1.1'){
+        exclude module: 'support-v4'
+    }
+    implementation 'androidx.localbroadcastmanager:localbroadcastmanager:1.0.0'
+}
