@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\999mg\\Documents\\UCLA 4th quarter MASTERS\\ECE M202A\\Final Project\\Android\\BLE Beacon 7\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\999mg\\Documents\\UCLA 4th quarter MASTERS\\ECE M202A\\Final Project\\Android\\BLE Beacon 7\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "from": {
+                        "startLines": "7,13",
+                        "startColumns": "4,4",
+                        "startOffsets": "220,421",
+                        "endLines": "11,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "415,663"
+                    },
+                    "to": {
+                        "startLines": "2,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,255",
+                        "endLines": "6,11",
+                        "endColumns": "12,12",
+                        "endOffsets": "250,497"
+                    }
+                }
+            ]
+        }
+    ]
+}

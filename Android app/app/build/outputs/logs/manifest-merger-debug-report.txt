@@ -1,0 +1,296 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:1:1-43:12
+INJECTED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:1:1-43:12
+INJECTED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:1:1-43:12
+INJECTED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:1:1-43:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\e86c4610b2c07d5ea12fa46872785a73\AndroidManifest.xml:17:1-22:12
+MERGED from [org.altbeacon:android-beacon-library:2.17.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee5ccbad888f05ee7cd24328ad45c126\AndroidManifest.xml:2:1-58:12
+MERGED from [com.github.bhargavms:DotLoader:1.1.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\696a8d2fbd64ea9e91ab00e956263541\AndroidManifest.xml:2:1-16:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\b6fef21e3ab145c1a0a4831d0d30e045\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\db8918a9d4c4f91d00e87927e75e7fb3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\f8fb6f4530a655a80c1736a3cef080b8\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\cb6db2c23a98fd33ae768e58f96c8cc1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\cdef23484195d527da7142d98a155f38\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\bb8269054c59e91662eef818e1b93656\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\f2e78b37f8c28945cf5d7e04f26e40f9\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\bbfbd7ab636fdd3506f23ce77594e80a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\8586175ad4734473c9c2fbcedaee8d4f\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\f69e3ddeaef68f159d07aa93bf7d0ff1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\1973001bfb2b2eee9ae7a30ac6920baf\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ca5a2995151b3c826ce030dc77e64361\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\177d0761b1549c004d2db35400babcd6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\7d0571b839be133ea6abc156ed28567c\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\3dfc31e422f2c6b6e0255fd0717f4344\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\e288362d2d216236e5a5a50ff9e48e48\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\0911c54724c730204e0e0ef99aed728e\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\bbf8d8388d71711a96b67e2a0c721793\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\cbccb073b38675537d83d27d19161b2b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\3d96c86c94ca31c4f6dc8127777da00a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\0b97d085edad68cc61304cb7b1b47ac8\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\c13ae167d22227fa0a2b24a85abe5de5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\dcd978a4410279f3e0520d6f6d17d1b1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee8d9522400b6c881c7306b1cf21d4df\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\7629a45e442a6c70b7baa4f5ba902069\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:1:1-43:12
+INJECTED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:1:1-43:12
+INJECTED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:1:1-43:12
+	package
+		ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:3:5-44
+		INJECTED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:2:5-51
+	xmlns:android
+		ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:1:11-69
+	android:versionCode
+		ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:7:5-76
+	android:name
+		ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:7:22-74
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:8:22-65
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:9:5-66
+	android:name
+		ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:9:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:10:5-78
+	android:name
+		ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
+ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:11:5-85
+	android:name
+		ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:11:22-82
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:13:5-75
+	android:name
+		ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:13:22-72
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:14:5-75
+	android:name
+		ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:14:22-73
+application
+ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:15:5-41:19
+MERGED from [org.altbeacon:android-beacon-library:2.17.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee5ccbad888f05ee7cd24328ad45c126\AndroidManifest.xml:20:5-56:19
+MERGED from [org.altbeacon:android-beacon-library:2.17.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee5ccbad888f05ee7cd24328ad45c126\AndroidManifest.xml:20:5-56:19
+MERGED from [com.github.bhargavms:DotLoader:1.1.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\696a8d2fbd64ea9e91ab00e956263541\AndroidManifest.xml:11:5-14:19
+MERGED from [com.github.bhargavms:DotLoader:1.1.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\696a8d2fbd64ea9e91ab00e956263541\AndroidManifest.xml:11:5-14:19
+MERGED from [androidx.core:core:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\3dfc31e422f2c6b6e0255fd0717f4344\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\3dfc31e422f2c6b6e0255fd0717f4344\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\e288362d2d216236e5a5a50ff9e48e48\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\e288362d2d216236e5a5a50ff9e48e48\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\3dfc31e422f2c6b6e0255fd0717f4344\AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from [com.github.bhargavms:DotLoader:1.1.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\696a8d2fbd64ea9e91ab00e956263541\AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:18:9-41
+	android:icon
+		ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:17:9-49
+	android:allowBackup
+		ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:16:9-35
+	android:name
+		ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:19:9-50
+activity#org.altbeacon.beaconreference.MonitoringActivity
+ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:20:9-28:20
+	android:label
+		ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:22:13-45
+	android:theme
+		ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:23:13-56
+	android:name
+		ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:21:13-76
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:24:13-27:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:25:5-57
+	android:name
+		ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:25:13-54
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:26:27-74
+activity#org.altbeacon.beaconreference.MapActivity
+ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:29:9-33:20
+	android:label
+		ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:31:13-45
+	android:theme
+		ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:32:13-56
+	android:name
+		ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:30:13-69
+service#org.altbeacon.beacon.service.BeaconService
+ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:35:9-38:19
+REJECTED from [org.altbeacon:android-beacon-library:2.17.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee5ccbad888f05ee7cd24328ad45c126\AndroidManifest.xml:29:9-34:38
+	tools:node
+		ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:36:13-33
+	android:name
+		ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:35:18-75
+meta-data#longScanForcingEnabled
+ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:37:13-84
+	android:value
+		ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:37:62-82
+	android:name
+		ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:37:24-61
+service#org.eclipse.paho.android.service.MqttService
+ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:39:9-40:19
+	android:name
+		ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml:39:18-77
+uses-sdk
+INJECTED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\e86c4610b2c07d5ea12fa46872785a73\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\e86c4610b2c07d5ea12fa46872785a73\AndroidManifest.xml:20:5-44
+MERGED from [org.altbeacon:android-beacon-library:2.17.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee5ccbad888f05ee7cd24328ad45c126\AndroidManifest.xml:7:5-9:41
+MERGED from [org.altbeacon:android-beacon-library:2.17.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee5ccbad888f05ee7cd24328ad45c126\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bhargavms:DotLoader:1.1.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\696a8d2fbd64ea9e91ab00e956263541\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bhargavms:DotLoader:1.1.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\696a8d2fbd64ea9e91ab00e956263541\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\b6fef21e3ab145c1a0a4831d0d30e045\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\b6fef21e3ab145c1a0a4831d0d30e045\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\db8918a9d4c4f91d00e87927e75e7fb3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\db8918a9d4c4f91d00e87927e75e7fb3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\f8fb6f4530a655a80c1736a3cef080b8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\f8fb6f4530a655a80c1736a3cef080b8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\cb6db2c23a98fd33ae768e58f96c8cc1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\cb6db2c23a98fd33ae768e58f96c8cc1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\cdef23484195d527da7142d98a155f38\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\cdef23484195d527da7142d98a155f38\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\bb8269054c59e91662eef818e1b93656\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\bb8269054c59e91662eef818e1b93656\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\f2e78b37f8c28945cf5d7e04f26e40f9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\f2e78b37f8c28945cf5d7e04f26e40f9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\bbfbd7ab636fdd3506f23ce77594e80a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\bbfbd7ab636fdd3506f23ce77594e80a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\8586175ad4734473c9c2fbcedaee8d4f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\8586175ad4734473c9c2fbcedaee8d4f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\f69e3ddeaef68f159d07aa93bf7d0ff1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\f69e3ddeaef68f159d07aa93bf7d0ff1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\1973001bfb2b2eee9ae7a30ac6920baf\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\1973001bfb2b2eee9ae7a30ac6920baf\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ca5a2995151b3c826ce030dc77e64361\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ca5a2995151b3c826ce030dc77e64361\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\177d0761b1549c004d2db35400babcd6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\177d0761b1549c004d2db35400babcd6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\7d0571b839be133ea6abc156ed28567c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\7d0571b839be133ea6abc156ed28567c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\3dfc31e422f2c6b6e0255fd0717f4344\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\3dfc31e422f2c6b6e0255fd0717f4344\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\e288362d2d216236e5a5a50ff9e48e48\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\e288362d2d216236e5a5a50ff9e48e48\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\0911c54724c730204e0e0ef99aed728e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\0911c54724c730204e0e0ef99aed728e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\bbf8d8388d71711a96b67e2a0c721793\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\bbf8d8388d71711a96b67e2a0c721793\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\cbccb073b38675537d83d27d19161b2b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\cbccb073b38675537d83d27d19161b2b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\3d96c86c94ca31c4f6dc8127777da00a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\3d96c86c94ca31c4f6dc8127777da00a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\0b97d085edad68cc61304cb7b1b47ac8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\0b97d085edad68cc61304cb7b1b47ac8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\c13ae167d22227fa0a2b24a85abe5de5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\c13ae167d22227fa0a2b24a85abe5de5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\dcd978a4410279f3e0520d6f6d17d1b1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\dcd978a4410279f3e0520d6f6d17d1b1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee8d9522400b6c881c7306b1cf21d4df\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee8d9522400b6c881c7306b1cf21d4df\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\7629a45e442a6c70b7baa4f5ba902069\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\7629a45e442a6c70b7baa4f5ba902069\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\999mg\Documents\UCLA 4th quarter MASTERS\ECE M202A\Final Project\Android\BLE Beacon 7\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.BLUETOOTH
+ADDED from [org.altbeacon:android-beacon-library:2.17.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee5ccbad888f05ee7cd24328ad45c126\AndroidManifest.xml:11:5-13:36
+	android:required
+		ADDED from [org.altbeacon:android-beacon-library:2.17.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee5ccbad888f05ee7cd24328ad45c126\AndroidManifest.xml:13:9-33
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.17.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee5ccbad888f05ee7cd24328ad45c126\AndroidManifest.xml:12:9-52
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from [org.altbeacon:android-beacon-library:2.17.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee5ccbad888f05ee7cd24328ad45c126\AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from [org.altbeacon:android-beacon-library:2.17.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee5ccbad888f05ee7cd24328ad45c126\AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.17.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee5ccbad888f05ee7cd24328ad45c126\AndroidManifest.xml:15:9-58
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [org.altbeacon:android-beacon-library:2.17.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee5ccbad888f05ee7cd24328ad45c126\AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.17.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee5ccbad888f05ee7cd24328ad45c126\AndroidManifest.xml:17:22-78
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [org.altbeacon:android-beacon-library:2.17.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee5ccbad888f05ee7cd24328ad45c126\AndroidManifest.xml:18:5-81
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.17.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee5ccbad888f05ee7cd24328ad45c126\AndroidManifest.xml:18:22-78
+receiver#org.altbeacon.beacon.startup.StartupBroadcastReceiver
+ADDED from [org.altbeacon:android-beacon-library:2.17.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee5ccbad888f05ee7cd24328ad45c126\AndroidManifest.xml:21:9-27:20
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.17.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee5ccbad888f05ee7cd24328ad45c126\AndroidManifest.xml:21:19-87
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED+action:name:android.intent.action.BOOT_COMPLETED
+ADDED from [org.altbeacon:android-beacon-library:2.17.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee5ccbad888f05ee7cd24328ad45c126\AndroidManifest.xml:22:13-26:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [org.altbeacon:android-beacon-library:2.17.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee5ccbad888f05ee7cd24328ad45c126\AndroidManifest.xml:23:17-79
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.17.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee5ccbad888f05ee7cd24328ad45c126\AndroidManifest.xml:23:25-76
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [org.altbeacon:android-beacon-library:2.17.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee5ccbad888f05ee7cd24328ad45c126\AndroidManifest.xml:24:17-87
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.17.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee5ccbad888f05ee7cd24328ad45c126\AndroidManifest.xml:24:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [org.altbeacon:android-beacon-library:2.17.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee5ccbad888f05ee7cd24328ad45c126\AndroidManifest.xml:25:17-90
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.17.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee5ccbad888f05ee7cd24328ad45c126\AndroidManifest.xml:25:25-87
+service#org.altbeacon.beacon.BeaconIntentProcessor
+ADDED from [org.altbeacon:android-beacon-library:2.17.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee5ccbad888f05ee7cd24328ad45c126\AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [org.altbeacon:android-beacon-library:2.17.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee5ccbad888f05ee7cd24328ad45c126\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [org.altbeacon:android-beacon-library:2.17.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee5ccbad888f05ee7cd24328ad45c126\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.17.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee5ccbad888f05ee7cd24328ad45c126\AndroidManifest.xml:36:13-70
+service#org.altbeacon.beacon.service.ScanJob
+ADDED from [org.altbeacon:android-beacon-library:2.17.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee5ccbad888f05ee7cd24328ad45c126\AndroidManifest.xml:39:9-48:19
+	android:permission
+		ADDED from [org.altbeacon:android-beacon-library:2.17.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee5ccbad888f05ee7cd24328ad45c126\AndroidManifest.xml:41:13-69
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.17.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee5ccbad888f05ee7cd24328ad45c126\AndroidManifest.xml:40:13-64
+meta-data#immediateScanJobId
+ADDED from [org.altbeacon:android-beacon-library:2.17.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee5ccbad888f05ee7cd24328ad45c126\AndroidManifest.xml:42:13-44:45
+	android:value
+		ADDED from [org.altbeacon:android-beacon-library:2.17.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee5ccbad888f05ee7cd24328ad45c126\AndroidManifest.xml:44:17-42
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.17.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee5ccbad888f05ee7cd24328ad45c126\AndroidManifest.xml:43:17-50
+meta-data#periodicScanJobId
+ADDED from [org.altbeacon:android-beacon-library:2.17.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee5ccbad888f05ee7cd24328ad45c126\AndroidManifest.xml:45:13-47:45
+	android:value
+		ADDED from [org.altbeacon:android-beacon-library:2.17.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee5ccbad888f05ee7cd24328ad45c126\AndroidManifest.xml:47:17-42
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.17.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee5ccbad888f05ee7cd24328ad45c126\AndroidManifest.xml:46:17-49
+service#org.altbeacon.bluetooth.BluetoothTestJob
+ADDED from [org.altbeacon:android-beacon-library:2.17.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee5ccbad888f05ee7cd24328ad45c126\AndroidManifest.xml:49:9-55:19
+	android:permission
+		ADDED from [org.altbeacon:android-beacon-library:2.17.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee5ccbad888f05ee7cd24328ad45c126\AndroidManifest.xml:51:13-69
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.17.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee5ccbad888f05ee7cd24328ad45c126\AndroidManifest.xml:50:13-68
+meta-data#jobId
+ADDED from [org.altbeacon:android-beacon-library:2.17.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee5ccbad888f05ee7cd24328ad45c126\AndroidManifest.xml:52:13-54:46
+	android:value
+		ADDED from [org.altbeacon:android-beacon-library:2.17.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee5ccbad888f05ee7cd24328ad45c126\AndroidManifest.xml:54:17-43
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.17.1] C:\Users\999mg\.gradle\caches\transforms-2\files-2.1\ee5ccbad888f05ee7cd24328ad45c126\AndroidManifest.xml:53:17-37

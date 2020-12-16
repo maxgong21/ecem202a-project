@@ -1,0 +1,4 @@
+#Sun Oct 18 20:42:28 PDT 2020
+base.0=C\:\\Users\\999mg\\Documents\\UCLA 4th quarter MASTERS\\ECE M202A\\Final Project\\Android\\BLE Beacon 4\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out
+path.0=classes.dex
+renamed.0=classes.dex

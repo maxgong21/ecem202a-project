@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.altbeacon.beaconreference"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="29" />
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- For BLE -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- For MQTT -->
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- For MQTT -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- For MQTT -->
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" /> <!-- For BLE -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- For BLE -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> <!-- For MQTT -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission
+        android:name="android.permission.BLUETOOTH"
+        android:required="false" />
+    <uses-permission
+        android:name="android.permission.BLUETOOTH_ADMIN"
+        android:required="false" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- For accessing IP address -->
+    <application
+        android:name="org.altbeacon.beaconreference.BeaconReferenceApplication"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:testOnly="true" >
+        <activity
+            android:name="org.altbeacon.beaconreference.MonitoringActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.altbeacon.beaconreference.MapActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <!-- uncomment the following to enable scanning for over 30 minutes on Android 7+ -->
+        <service android:name="org.altbeacon.beacon.service.BeaconService" >
+            <meta-data
+                android:name="longScanForcingEnabled"
+                android:value="true" />
+        </service>
+        <service android:name="org.eclipse.paho.android.service.MqttService" >
+        </service>
+
+        <receiver android:name="org.altbeacon.beacon.startup.StartupBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="org.altbeacon.beacon.BeaconIntentProcessor"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="org.altbeacon.beacon.service.ScanJob"
+            android:permission="android.permission.BIND_JOB_SERVICE" >
+            <meta-data
+                android:name="immediateScanJobId"
+                android:value="208352939" />
+            <meta-data
+                android:name="periodicScanJobId"
+                android:value="208352940" />
+        </service>
+        <service
+            android:name="org.altbeacon.bluetooth.BluetoothTestJob"
+            android:permission="android.permission.BIND_JOB_SERVICE" >
+            <meta-data
+                android:name="jobId"
+                android:value="1799803768" />
+        </service>
+    </application>
+
+</manifest>
