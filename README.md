@@ -166,15 +166,26 @@ This project succeeded in providing a practical approach to indoor positioning. 
 ## References
 
 [1] [An iBeacon Primer for Indoor Localization](https://dl.acm.org/doi/10.1145/2674061.2675028) 
+
 [2] [Improved bluetooth beacon-based indoor location and fingerprinting](https://doi.org/10.1007/s12652-019-01626-2) 
+
 [3] [An Indoor Positioning Algorithm Using Bluetooth Low Energy RSSI](https://www.researchgate.net/publication/306325749_An_Indoor_Positioning_Algorithm_using_Bluetooth_Low_Energy_RSSI)
+
 [4] [A Smartphone Based Hand-Held Indoor Positioning System](https://www.researchgate.net/publication/301529181_A_Smartphone_Based_Hand-Held_Indoor_Positioning_System) 
+
 [5] [An Indoor Position-Estimation Algorithm Using Smartphone IMU Sensor Data](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8606925)
+
 [6] [Locating and Tracking BLE Beacons with Smartphones](https://dl.acm.org/doi/10.1145/3143361.3143385)
+
 [7] [Indoor Positioning Based on Bluetooth Low Energy Beacons Adopting Graph Optimization](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6264008/)
+
 [8] [Python AHRS library](https://ahrs.readthedocs.io/en/latest/filters/madgwick.html)
+
 [9] [Python Scikit-kinematics library](http://work.thaslwanter.at/skinematics/html/imus.html?highlight=kalman#imus.kalman)
+
 [10] [Takaklas' Github algorithm for PDR indoor positioning](https://github.com/Takaklas/Indoor-Localization-WIth-IMU/blob/master/position_PDR.py)
+
 [11] [Step Detection Algorithm for Accurate Distance Estimation Using Dynamic Step Length](https://ieeexplore.ieee.org/document/7962470)
+
 [12] [AutoGait: A Mobile Platform that Accurately Estimates the Distance Walked](http://netlab.cs.ucla.edu/wiki/files/autogait.pdf)
 
