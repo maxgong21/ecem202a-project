@@ -28,7 +28,7 @@ Bluetooth Low Energy (BLE) beacons have been studied closely in the past decade 
 
 ## Goals & Deliverables
 
-**The ultimate goal: _Create a practical approach to indoor positioning._** 
+Goal: ***Create a practical approach to indoor positioning.*** 
 
 Deliverables:
 1. ***Mapping***: Use a phone’s motion sensors to locate and generate a map of beacons. For instance, a user would walk from beacon to beacon. Once the user has walked to all beacons, the beacons are automatically located & a map of beacons is generated.
