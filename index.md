@@ -26,7 +26,7 @@ Bluetooth Low Energy (BLE) beacons have been studied closely in the past decade 
 ***What if there was a way to auto-map beacons once you set them down in their spots? What if all you needed was your phone to locate the beacons?*** 
 
 
-## Goals & Deliverables
+## Goals and Deliverables
 
 Goal: ***Create a practical approach to indoor positioning.*** 
 
