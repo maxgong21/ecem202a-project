@@ -48,7 +48,7 @@ I have only found two works that use IMU to locate the position of beacons. Pape
 
 #### These are the hardware and software I used: 
 
-![Progress_1](images/progress_1.jpg)
+![Method](images/materials_methods.jpg)
 
 - BlueCharm BLE beacons
   - Used iBeacon protocol
@@ -67,7 +67,7 @@ I have only found two works that use IMU to locate the position of beacons. Pape
 
 #### Here is the technical approach to Mapping:  
 
-![Progress_1](images/progress_1.jpg)
+![Technical Approach to Mapping](images/technical_mapping.jpg)
 
 Mapping can be split into two parts: 1. Tracing the walking path from IMU data, and 2. Estimating beacon location based on the estimated walking path and beacon ID. 
 
@@ -84,7 +84,7 @@ The final part of Mapping is to map the beacon locations to the position. This i
 
 #### Here is the technical approach to Indoor Positioning: 
 
-![Progress_1](images/progress_1.jpg)
+![Technical Approach to IP](images/technical_positioning.jpg)
 
 Indoor positioning can be split into two parts: 1. Estimate distance from each beacon, 2. Estimate phone locations. 
 
@@ -117,23 +117,23 @@ To estimate phone location, I used the “pondering” technique mentioned in [2
 #### Mapping
 The results for mapping show promise, but can use improvement. Here, I looked at two metrics. The first metric is step detection accuracy. Five paths were recorded. From these paths, the system was able to detect 94.3% of steps, and only falsely identified 1 in every 20 steps on average. One thing I noticed is that these false steps occur when I pick up the phone and place the phone down. The second metric is beacon location accuracy, which encapsulates the cumulative accuracy of heading, step length estimation, and position estimation. Here, I compared the MSE of the beacon locations estimated using the different attitude & heading estimation methods. Eight runs were recorded. From these runs, the average MSE of the estimated location is as follows: complementary/basic method 2.47m, Madgwick 0.84m, and EKF 2.65m. It seems EKF and complementary/basic methods were not able to adapt to the sharp changes in heading, while Madgwick showed the best results in estimating beacon locations.  
 
-![Progress_1](images/progress_1.jpg)
+![result_mapping_1](images/result_mapping_1.jpg)
 
 
-![Progress_1](images/progress_1.jpg)
+![result_mapping_2](images/result_mapping_2.jpg)
 
 
 #### Indoor Positioning
 The results for indoor positioning with known beacon locations is relatively accurate and falls within expected results. Five runs were recorded. From these runs, the MSE of the estimated phone locations vs. my actual phone locations was 0.78m on average. This falls within the expected range of 0.5-2m in BLE indoor positioning accuracy. 
 
 
-![Progress_1](images/progress_1.jpg)
+![result_positioning_1](images/result_positioning_1.jpg)
 
 
 #### Mapping + Indoor Positioning
 The results for indoor positioning with estimated beacon locations shows questionable accuracy. The MSE of the estimated phone locations using estimated beacon locations vs. my actual phone locations was 3.48m. Although this falls within the expected range of 3.25 - 4.69m in paper [7], it may not be suitable for applications where typical BLE accuracy of 0.5-2m is needed. 
 
-![Progress_1](images/progress_1.jpg)
+![result_both](images/result_both.jpg)
 
 
 
