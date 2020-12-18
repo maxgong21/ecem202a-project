@@ -2,7 +2,12 @@
 
 UCLA ECE M202A Final Project by Max Gong, Fall 2020
 
-Formerly titled "Auto-Generate Map of BLE Beacons for Indoor positioning Using a Phone's Motion Sensors"
+*Formerly titled "Auto-Generate Map of BLE Beacons for Indoor positioning Using a Phone's Motion Sensors"*
+
+#### Links
+- [Github Project](https://github.com/maxgong21/ecem202a-project)
+- [Final Presentation Video](https://youtu.be/J_DVw2swnAg)
+- [Midterm Presentation Video](https://youtu.be/EX1blZta94k)
 
 ## Abstract
 
@@ -141,7 +146,7 @@ The results for indoor positioning with estimated beacon locations shows questio
 I’ve identified 3 main strengths of this project. 
 1. This project presented a user-friendly, practical approach to indoor positioning, by providing a beacon-locating & mapping solution combined with an indoor positioning solution, all from just a phone, BLE beacons, and a PC. The project provided expected accuracy for mapping and indoor positioning, which validates this approach to indoor positioning. 
 2. It’s a power-friendly solution. It only uses up most of the power during mapping, when collecting IMU readings at 50Hz, but it uses low-power BLE during indoor positioning, which would be the most used application in a real world scenario. 
-3. Though relatively inaccurate, this project showed that it is possible to use a phone to trace walking paths without the use of GPS, which is typically not accurate in indoor settings. 
+3. Results fall within expected range of accuracy when compared to literature. 
 
 
 ## Weaknesses
