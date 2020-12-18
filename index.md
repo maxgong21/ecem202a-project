@@ -39,6 +39,7 @@ Deliverables:
 1. ***Mapping***: Use a phone’s motion sensors to locate and generate a map of beacons. For instance, a user would walk from beacon to beacon. Once the user has walked to all beacons, the beacons are automatically located & a map of beacons is generated.
 2. ***Indoor positioning***: Use BLE RSSI to locate the position of a phone, based on the map of BLE beacons. 
 
+*[Click here to view the demo.](https://youtu.be/J_DVw2swnAg?t=167)*
 
 ## Prior Works
 
