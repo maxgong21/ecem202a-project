@@ -6,7 +6,7 @@ UCLA ECE M202A Final Project by Max Gong, Fall 2020
 
 #### Links
 - [Github Project](https://github.com/maxgong21/ecem202a-project)
-- [Final Presentation Video](https://youtu.be/J_DVw2swnAg)
+- [Final Presentation+Demo Video](https://youtu.be/J_DVw2swnAg)
 - [Midterm Presentation Video](https://youtu.be/EX1blZta94k)
 
 ## Abstract
